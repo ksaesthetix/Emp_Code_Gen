@@ -11,5 +11,5 @@ function generateCode(supplierName) {
     while (initials.length < 5) {
         initials += cleanedName.charAt(Math.floor(Math.random() * cleanedName.length));
     }
-    return `SU${initials.slice(0, 5).toUpperCase()}`;
+    return `EM${initials.slice(0, 5).toUpperCase()}`;
 }
